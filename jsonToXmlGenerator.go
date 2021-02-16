@@ -175,6 +175,12 @@ func jsonToXML() {
 	rdForm := generateXMLParentNode(elementNameFromKey("RdForm"))
 	rdForm.Attrs = append(rdForm.Attrs, xml.Attr{Name: xml.Name{Local: "xmlns:rd"}, Value: xmlNameSpace})
 
+	putStaticData := func(parent *AnyXML, name string, value string) { // this function put some static data into xml test data
+		putXMLElement(parent, name, generateXMLElementOfType(elementNameFromKey(name), "String", value))
+	}
+	putStaticData(&rdForm, "ExchangeDocumentContext.GuidelineSpecifiedDocumentContextParameter.Id", "123456")
+	//putStaticData(&rdForm, "ExchangeDocument.Name", "แบบแสดงรายการภาษีเงินได้บริษัทหรือห้างหุ้นส่วนนิติบุคคล")
+
 	transferValues(&rdForm, jsonValue, jsonInput, "", "")
 	encoder := xml.NewEncoder(outFile)
 	encoder.Indent("", "    ")
