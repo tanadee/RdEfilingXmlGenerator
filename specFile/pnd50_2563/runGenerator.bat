@@ -1,0 +1,1 @@
+csvToXmlParser -spec PND50_XML_2563_V2_090220211.csv -nameSubstitution nameSubstitution.json -xmlNameMapping xmlNameMapping.json -jsonTestData testData.json -xmlTestData .\output\testData.xml
