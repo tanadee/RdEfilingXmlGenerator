@@ -1,0 +1,8 @@
+{
+	"NetTaxIndicator": "netTaxInd",
+	"IncomeAmount": "income",                                              
+	"ThreePercentReductionIndicator": "3PercentReductionInd",              
+	"ThreePercentReductionTaxableAmount": "3PercentReductionTaxableAmount",
+	"TaxableNetProfitsOrNetLosses_22": "22_TaxableNetProfitsOrNetLosses",
+	"Pnd50_Item2": "pnd50_Item2"
+}

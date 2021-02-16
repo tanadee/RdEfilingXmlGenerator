@@ -1,0 +1,432 @@
+{
+	"rdForm": {
+		"docDetail": {
+			"version": "3.0.0",
+			"code": "PND50"
+		},
+		"formDetail": {
+			"taxDetail": {
+				"filingType": "0",
+				"filingNo": "0",
+				"accountingPeriod": {
+					"fromDate": "2020-01-01",
+					"toDate": "2020-12-31"
+				},
+				"createDate": "2021-02-15T06:51:59.728Z",
+				"roundFlag": "Y",
+				"currency": {
+					"currencyCode": "THB",
+					"currencySysCode": "00",
+					"currencyNameTh": "บาท",
+					"currencyUnit": 1,
+					"exchangeRate": null,
+					"date": null
+				},
+				"taxComputation": {
+					"netProfit": {
+						"rate20Percent": {
+							"select": 0
+						},
+						"rate3Percent": {
+							"select": 0
+						}
+					},
+					"taxComputationType": "0",
+					"totalAmountIndicator": "0",
+					"totalAmount": 0,
+					"totalComputedTax": 0,
+					"netTaxInd": "0",
+					"netTax": 0,
+					"totTaxAmt": "0.00",
+					"totTaxInd": "0"
+				},
+				"homeOffice": "06730030",
+				"formFilingType": "3",
+				"revenueExpenseAndNetProfitOrLoss": {
+					"no1_revenue": {
+						"exemption": 18,
+						"total": 31,
+						"liable": 13
+					},
+					"no3_grossProfitOrLoss": {
+						"exemptionIndicator": "1",
+						"exemption": 18,
+						"totalIndicator": "1",
+						"total": 31,
+						"liableIndicator": "1",
+						"liable": 13
+					},
+					"no5_total3To4": {
+						"exemptionIndicator": "1",
+						"exemption": 18,
+						"totalIndicator": "1",
+						"total": 31,
+						"liableIndicator": "1",
+						"liable": 13
+					},
+					"no7_total5To6": {
+						"exemptionIndicator": "1",
+						"exemption": 18,
+						"totalIndicator": "1",
+						"total": 31,
+						"liableIndicator": "1",
+						"liable": 13
+					},
+					"no9_netProfitOrLoss": {
+						"exemptionIndicator": "1",
+						"exemption": 18,
+						"totalIndicator": "1",
+						"total": 31,
+						"liableIndicator": "1",
+						"liable": 13
+					},
+					"no12_total9To11": {
+						"exemptionIndicator": "1",
+						"exemption": 18,
+						"totalIndicator": "1",
+						"total": 31,
+						"liableIndicator": "1",
+						"liable": 13
+					},
+					"no14_total12To13": {
+						"exemptionIndicator": "1",
+						"exemption": 18,
+						"totalIndicator": "1",
+						"total": 31,
+						"liableIndicator": "1",
+						"liable": 13
+					},
+					"no16_total14To15": {
+						"exemptionIndicator": "1",
+						"exemption": 18,
+						"totalIndicator": "1",
+						"total": 31,
+						"liableIndicator": "1",
+						"liable": 13
+					},
+					"totalAfterSpecialExpenses": {
+						"exemptionIndicator": "1",
+						"exemption": 18,
+						"totalIndicator": "1",
+						"total": 31,
+						"liableIndicator": "1",
+						"liable": 13
+					},
+					"taxableNetProfitOrLoss": {
+						"total": 363,
+						"totalIndicator": "0"
+					}
+				},
+				"costOfSales": null,
+				"manufacturingCosts": null,
+				"otherIncomes": null,
+				"otherExpenses": null,
+				"sellingAndAdminsitrativeExpenses": null,
+				"expensesOverTheRevenueCode": null,
+				"assetsLiabilitiesAndEquity": null,
+				"auditorReport": null,
+				"declarationUnderSection71Bis": null,
+				"auditorInfo": null,
+				"accountantInfo": null,
+				"declarationStatement": null,
+				"auditorNote": null,
+				"ibcAttachment": null,
+				"netLossAttachment": null,
+				"revOrExpDeductAttachment": null,
+				"signature": null,
+				"statusOfCompaniesOrJuristicPartnerships": {
+					"statusOfCompany": 1,
+					"statusOfOtherNonCoreBusinessId": 10
+				},
+				"operationOfBusiness": [
+					{
+						"index": 1,
+						"isicCode": "511004",
+						"operationName": "ตัวแทนขายเครื่องจักร เครื่องมืออุตสาหกรรม เรือ และอากาศยาน"
+					}
+				],
+				"boiAttachment": [
+					{
+						"page1": {
+							"boiNo": "1",
+							"boiBusinessName": "1",
+							"statusGroupSelection": {
+								"byBoi": true,
+								"boiExemptionLimit": "1024",
+								"byOperationalLicense": true,
+								"opertionalLicenseLimit": "144",
+								"noConditionOnCit": false
+							},
+							"taxExemptionInfo": {
+								"incomeTaxExemptionSelect": true,
+								"incomeTaxRateReductionSelect": true,
+								"otherSelect": true,
+								"other": {
+									"specify": "po9",
+									"yearAmount": 13,
+									"startDate": "2021-02-08",
+									"endDate": "2034-02-07"
+								},
+								"totalCitTaxExemptionAmount": 220318,
+								"incomeTaxExemption": {
+									"yearAmount": 3,
+									"startDate": "2021-02-11",
+									"endDate": "2024-02-10"
+								},
+								"incomeTaxRateReduction": {
+									"yearAmount": 6,
+									"startDate": "2021-02-10",
+									"endDate": "2027-02-09"
+								},
+								"previousCitTaxExemptionAmount": 210214,
+								"currentCitTaxExemptionAmount": 10104
+							},
+							"productionQuantityAndSaleInfo": {
+								"productType": "iuioyuty",
+								"capacity": {
+									"unit": "et5y",
+									"quantity": 5546
+								},
+								"actualProduction": {
+									"unit": "erty",
+									"quantity": 43
+								},
+								"sale": {
+									"unit": "eru",
+									"quantity": 246,
+									"value": 1000
+								},
+								"taxExemptionSale": {
+									"unit": "dsr",
+									"quantity": 242,
+									"value": 10000
+								}
+							},
+							"pnd50_Item2": {
+								"no3_grossProfitOrLoss": {
+									"profitLoss_indicator": "2",
+									"exemptionIndicator": "2",
+									"exemption": 3,
+									"exemption50PercentIndicator": "2",
+									"exemption50Percent": 3,
+									"liableIndicator": "2",
+									"liable": 3
+								},
+								"no1_revenue": {
+									"exemption": 1,
+									"exemption50Percent": 2,
+									"liable": 3
+								},
+								"no2_lessCostofSales": {
+									"exemption": 4,
+									"exemption50Percent": 5,
+									"liable": 6
+								}
+							},
+							"issueDate": "2021-02-08",
+							"approveDate": "2021-02-11",
+							"startEarningRevenueDate": "2021-02-10"
+						},
+						"page2": {
+							"pnd50_Item2": {
+								"taxableNetProfitOrLoss": {
+									"profitLoss_indicator": "1",
+									"exemptionIndicator": "1",
+									"exemption": 28,
+									"exemption50PercentIndicator": "1",
+									"exemption50Percent": 29,
+									"liableIndicator": "1",
+									"liable": 30
+								},
+								"no8_lessSellingAndAdminExpenses": {
+									"exemption": 7,
+									"exemption50Percent": 8,
+									"liable": 9
+								},
+								"no11_plusExpensesOverTheRevenueCode": {
+									"exemption": 10,
+									"exemption50Percent": 11,
+									"liable": 12
+								},
+								"revOrExpAttach_totalAmount": {
+									"exemption": 13,
+									"exemption50Percent": 14,
+									"liable": 15
+								},
+								"revOrExpAttach_no2_1": {
+									"exemption": 16,
+									"exemption50Percent": 17,
+									"liable": 18
+								},
+								"revOrExpAttach_no2_3": {
+									"exemption": 19,
+									"exemption50Percent": 20,
+									"liable": 21
+								},
+								"revOrExpAttach_no2_4": {
+									"exemption": 22,
+									"exemption50Percent": 23,
+									"liable": 24
+								},
+								"no15_lessNetLossesDeductByLaw": {
+									"exemption": 25,
+									"exemption50Percent": 26,
+									"liable": 27
+								},
+								"computedTax": {
+									"exemption": 31,
+									"exemption50Percent": 32,
+									"liable": 33
+								}
+							},
+							"sellingAndAdminsitrativeExpenses": {
+								"no1": {
+									"exemption": 34,
+									"exemption50Percent": 35,
+									"liable": 36
+								},
+								"no3": {
+									"exemption": 37,
+									"exemption50Percent": 38,
+									"liable": 39
+								},
+								"no6": {
+									"exemption": 40,
+									"exemption50Percent": 41,
+									"liable": 42
+								},
+								"no12": {
+									"exemption": 43,
+									"exemption50Percent": 44,
+									"liable": 45
+								},
+								"no21": {
+									"exemption": 46,
+									"exemption50Percent": 47,
+									"liable": 48
+								},
+								"no22": {
+									"exemption": 49,
+									"exemption50Percent": 50,
+									"liable": 51
+								},
+								"totalAmount": {
+									"exemption": 52,
+									"exemption50Percent": 53,
+									"liable": 54
+								}
+							}
+						}
+					},
+					{
+						"page1": {
+							"boiNo": "1231",
+							"boiBusinessName": "123",
+							"statusGroupSelection": {
+								"byBoi": false,
+								"boiExemptionLimit": "",
+								"byOperationalLicense": false,
+								"opertionalLicenseLimit": "",
+								"noConditionOnCit": true
+							},
+							"taxExemptionInfo": {
+								"incomeTaxExemptionSelect": false,
+								"incomeTaxRateReductionSelect": true,
+								"otherSelect": false,
+								"other": {
+									"specify": ""
+								},
+								"totalCitTaxExemptionAmount": 882,
+								"previousCitTaxExemptionAmount": 351,
+								"currentCitTaxExemptionAmount": 531,
+								"incomeTaxRateReduction": {
+									"yearAmount": 6,
+									"startDate": "2021-02-03",
+									"endDate": "2027-02-02"
+								}
+							},
+							"productionQuantityAndSaleInfo": {
+								"productType": "qwqe",
+								"capacity": {
+									"unit": "1",
+									"quantity": 13
+								},
+								"actualProduction": {
+									"unit": "1",
+									"quantity": 35
+								},
+								"sale": {
+									"unit": "1",
+									"quantity": 431,
+									"value": 51
+								},
+								"taxExemptionSale": {
+									"unit": "1",
+									"quantity": 12,
+									"value": 31
+								}
+							},
+							"pnd50_Item2": {
+								"no3_grossProfitOrLoss": {
+									"profitLoss_indicator": "1",
+									"exemptionIndicator": "1",
+									"exemption": 13,
+									"exemption50PercentIndicator": "1",
+									"exemption50Percent": 13,
+									"liableIndicator": "1",
+									"liable": 12
+								},
+								"no1_revenue": {
+									"exemption": 13,
+									"exemption50Percent": 13,
+									"liable": 12
+								}
+							},
+							"issueDate": "2021-02-02",
+							"approveDate": "2021-02-01",
+							"startEarningRevenueDate": "2021-02-02"
+						},
+						"page2": {
+							"pnd50_Item2": {
+								"taxableNetProfitOrLoss": {
+									"profitLoss_indicator": "1",
+									"exemptionIndicator": "1",
+									"exemption": 135,
+									"exemption50PercentIndicator": "2",
+									"exemption50Percent": 135,
+									"liableIndicator": "1",
+									"liable": 13
+								}
+							}
+						}
+					}
+				]
+			},
+			"taxPayerInfo": {
+				"id13": "0105527003992",
+				"titleCode": "5211",
+				"titleName": "บริษัท",
+				"name": "บริษัทบ้านหลังเขา",
+				"email": "thagonwant@wisesoft.co.th",
+				"address": {
+					"telNo": null,
+					"houseNo": "137/6",
+					"roomNo": " -",
+					"subdistrict": "ขุนแก้ว",
+					"district": "นครชัยศรี",
+					"province": "นครปฐม",
+					"building": " -",
+					"floorNo": " -",
+					"moo": "1",
+					"postCode": "73120",
+					"soi": "-",
+					"road": "พุทธมณฑลสาย8",
+					"subdistrictCode": "730307",
+					"fullAddress": "เลขที่ 137/6  อาคาร -  ห้องเลขที่  -  ชั้นที่  -  หมู่ที่ 1  ตรอก/ซอย-  ถนนพุทธมณฑลสาย8  ตำบลขุนแก้ว  อำเภอนครชัยศรี  จังหวัดนครปฐม  73120"
+				}
+			},
+			"refund": null,
+			"payment": null
+		}
+	}
+}

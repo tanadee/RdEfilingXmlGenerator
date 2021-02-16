@@ -1,0 +1,22 @@
+{
+	"TaxFormDetail.Detail.ThailandAgent.SpecifiedTaxRegistration.Id": "rdForm.formDetail.thailandAgent.id13",
+	"TaxFormDetail.Detail.ThailandAgent.Name": "rdForm.formDetail.thailandAgent.firstName",
+	"TaxFormDetail.Detail.ThailandAgent.Middlename": "rdForm.formDetail.thailandAgent.midName",
+	"TaxFormDetail.Detail.ThailandAgent.Surname": "rdForm.formDetail.thailandAgent.surName",
+	"TaxFormDetail.Detail.ThailandAgent.": "rdForm.formDetail.thailandAgent.",
+	"TaxFormDetail.Calculate.IncomeTaxComputation": "rdForm.formDetail.taxDetail.grossReceiptsAndTaxComputation.incomeTaxComputation",
+	"TaxFormDetail.Detail.TaxableIncomeAndTaxComputation.NetTaxIndicator": "rdForm.formDetail.taxDetail.netTaxInd",
+	"TaxFormDetail.Detail.TaxableIncomeAndTaxComputation.NetTax": "rdForm.formDetail.taxDetail.netTax",
+	"ExchangeDocument.FormType": "rdForm.docDetail.code",
+	"ExchangeDocument.Version": "rdForm.docDetail.version",
+	"TaxPayer.Website": "rdForm.formDetail.taxPayerInfo.website",
+	"TaxPayer.SpecifiedTaxRegistration.Id": "rdForm.formDetail.taxPayerInfo.id13",
+	"TaxPayer.Contact.TelephoneNumber.Number": "rdForm.formDetail.taxPayerInfo.address.telNo",
+	"TaxForm.TaxPeriod.StartDate": "rdForm.formDetail.taxDetail.accountingPeriod.fromDate",
+	"TaxForm.TaxPeriod.EndDate": "rdForm.formDetail.taxDetail.accountingPeriod.toDate",
+	"TaxForm.Filing.FilingType": "rdForm.formDetail.taxDetail.filingType",
+	"TaxForm.Filing.FilingNo": "rdForm.formDetail.taxDetail.filingNo",
+	"TaxFormDetail.": "rdForm.formDetail.taxDetail.",
+	"TaxFormDetail.OperationOfBusiness.Detail": "rdForm.formDetail.taxDetail.operationOfBusiness",
+	"TaxFormDetail.BoiAttachment.Detail": "rdForm.formDetail.taxDetail.boiAttachment"
+}
