@@ -110,6 +110,7 @@ func jsonToXML() {
 			// if vc, err := json.Marshal(value); err != nil {
 			// 	value = string(vc)
 			// }
+			log.Println(name, typ, data)
 			panic(fmt.Sprint("unknown value type ", d))
 		}
 		xmlElement.Data = value
