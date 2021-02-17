@@ -12,26 +12,24 @@ import (
 
 func getJSONByKey(value interface{}, name string) interface{} {
 	nameDotIndex := strings.Index(name, ".")
-	if nameDotIndex > 0 {
-		if value == nil {
-			return nil
+	var result interface{}
+	if value == nil {
+		return nil
+	}
+	if valueMap, ok := value.(map[string]interface{}); ok {
+		if nameDotIndex > 0 {
+			result = getJSONByKey(valueMap[name[:nameDotIndex]], name[nameDotIndex+1:])
+		} else {
+			result = valueMap[name]
 		}
-		if valueMap, ok := value.(map[string]interface{}); ok {
-			v := getJSONByKey(valueMap[name[:nameDotIndex]], name[nameDotIndex+1:])
-			if v == nil {
-				v = getJSONByKey(valueMap["page1"], name)
-			}
-			if v == nil {
-				v = getJSONByKey(valueMap["page2"], name)
-			}
-			return v
+		if result == nil {
+			result = getJSONByKey(valueMap["page1"], name)
 		}
-	} else {
-		if valueMap, ok := value.(map[string]interface{}); ok {
-			return valueMap[name]
+		if result == nil {
+			result = getJSONByKey(valueMap["page2"], name)
 		}
 	}
-	return nil
+	return result
 }
 
 func jsonToXML() {
