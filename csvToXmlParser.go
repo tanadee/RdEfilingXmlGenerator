@@ -20,7 +20,7 @@ type FromToKey struct {
 	To   string
 }
 
-var forceArrayType = map[string]bool{"TaxFormDetail.Calculate.IncomeTaxComputation": true}
+var forceArrayType = map[string]bool{}
 var specialName map[string]string
 var fromToKeyMap []FromToKey
 
